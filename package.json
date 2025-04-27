@@ -1,15 +1,15 @@
 {
   "name": "youtube-downloader-backend",
   "version": "1.0.0",
-  "description": "Simple YouTube downloader backend server",
+  "description": "Simple YouTube downloader using public API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "ytdl-core": "^4.11.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "axios": "^1.6.5"
   },
   "engines": {
     "node": ">=14.0.0"
